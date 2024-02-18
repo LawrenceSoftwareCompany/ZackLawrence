@@ -40,7 +40,7 @@ constructAboutMePage = () => {
   frame1.classList = "photoFrame";
   const img1 = document.createElement("img");
   img1.classList = "gridSectionPhoto";
-  img1.src = "../assets/images/bridge.jpg";
+  img1.src = "assets/images/bridge.jpg";
   frame1.appendChild(img1);
 
   // Second Text block
@@ -64,7 +64,7 @@ constructAboutMePage = () => {
   frame2.classList = "photoFrame";
   const img2 = document.createElement("img");
   img2.classList = "gridSectionPhoto";
-  img2.src = "../assets/images/hobbies.jpg";
+  img2.src = "assets/images/hobbies.jpg";
   frame2.appendChild(img2);
 
   content.append(introSection, frame1, frame2, sectionTwo);
@@ -94,7 +94,7 @@ constructAchievementsPage = () => {
   frame1.classList = "photoFrame";
   const img1 = document.createElement("img");
   img1.classList = "gridSectionPhoto";
-  img1.src = "../assets/images/Pancho.jpg";
+  img1.src = "assets/images/Pancho.jpg";
   frame1.appendChild(img1);
 
   // Second Text block
@@ -118,7 +118,7 @@ constructAchievementsPage = () => {
   frame2.classList = "photoFrame";
   const img2 = document.createElement("img");
   img2.classList = "gridSectionPhoto";
-  img2.src = "../assets/images/podium.jpg";
+  img2.src = "assets/images/podium.jpg";
   frame2.appendChild(img2);
 
   content.append(frame1, introSection, sectionTwo, frame2);
