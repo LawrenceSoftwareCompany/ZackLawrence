@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="body" class="homePage">
+      <header class="header">
+        <nav class="headerNav">
+          <span class="navItem" onclick="updateBackGround('aboutMe')"
+            >About Me</span
+          >
+          <span class="navItem" onclick="updateBackGround('home')">Home</span>
+          <span class="navItem" onclick="updateBackGround('achievements')"
+            >Achievements</span
+          >
+        </nav>
+      </header>
+
+      <div class="wrapper centerContent" id="content">
+        <div class="openingSprawl">
+          <h1>ZackLawrence.net</h1>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div>
+          <nav class="footerNav">
+            <ul class="footerList">
+              <li><span class="navItem">Home</span></li>
+              <li><span class="navItem">About Me</span></li>
+              <li><span class="navItem">Achievements</span></li>
+
+              <!-- credit item -->
+              <li>
+                <span class="creditSpan"
+                  >Website by:
+                  <a href="lawrencesoftwarecompany.com"
+                    >Lawrence Software Company</a
+                  ></span
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div></div>
+        <div></div>
+      </footer>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
